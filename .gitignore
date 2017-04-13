@@ -1,2 +1,3 @@
 hooks/ebuild_*
 hooks/install*
+hooks/configs/filesystem-manager.conf.example
