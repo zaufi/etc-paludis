@@ -6,7 +6,7 @@
 # I don't care about tests
 SKIP_FUNCTIONS="test"
 # Use all cores available
-MAKEOPTS="-j8"
+MAKEOPTS="-j4"
 # Reduce SPAM from cmake based builds
 CMAKE_VERBOSE=OFF
 # Tell to cmake.eclass to use ordinal Makefiles
@@ -18,7 +18,7 @@ CMAKE_MAKEFILE_GENERATOR='emake'
 EXTRA_ECONF="--disable-maintainer-mode --disable-dependency-tracking --enable-silent-rules --disable-nls --enable-fast-install"
 AM_OPTS="--ignore-deps"
 # Maximum number of Perl threads to use in automake for generating multiple Makefile.in files concurrently
-AUTOMAKE_JOBS=8
+AUTOMAKE_JOBS=4
 
 # Prepare compiler options (use "predefined" vairables to group them),
 # so particular environments may refer them to turn OFF for example...
