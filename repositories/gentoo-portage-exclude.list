@@ -51,6 +51,7 @@
 - games-*/***
 + gnome-base/dconf**
 + gnome-base/gconf**
++ gnome-base/gnome-common**
 + gnome-base/gsettings-desktop-schemas**
 + gnome-base/gnome-keyring**
 + gnome-base/lib**
