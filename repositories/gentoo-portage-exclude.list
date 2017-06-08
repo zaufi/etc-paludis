@@ -129,7 +129,6 @@
 - www-apps/horde**
 - www-apps/php**
 - www-misc/***
-- www-plugins/***
 + x11-drivers/xf86-input-evdev**
 + x11-drivers/xf86-input-keyboard**
 + x11-drivers/xf86-input-mouse**
