@@ -186,6 +186,7 @@
 + /profiles/**/amd64
 + /profiles/**/linux
 + /profiles/**/13.0
++ /profiles/**/17.0
 + /profiles/**/64bit-native
 + /profiles/**/multilib
 + /profiles/**/multilib/lib32
