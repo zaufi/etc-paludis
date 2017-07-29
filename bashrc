@@ -3,6 +3,8 @@
 # Configure environment for paludis
 #
 
+LC_ALL=en_US.UTF-8
+
 # I don't care about tests
 SKIP_FUNCTIONS="test"
 # Use all cores available
