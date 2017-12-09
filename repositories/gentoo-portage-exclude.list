@@ -181,10 +181,11 @@
 + /profiles/**/ChangeLog
 
 #
-# Keep nested directories according to my profile: 
-# «native 64bit gentoo linux release 13.0 w/ multilib and KDE desktop»
+# Keep nested directories according to my profile:
+# «native 64bit gentoo linux release 13.0 and 17.0 w/ multilib and KDE desktop»
 #
 + /profiles/**/amd64
++ /profiles/**/amd64/lib32
 + /profiles/**/linux
 + /profiles/**/13.0
 + /profiles/**/17.0
