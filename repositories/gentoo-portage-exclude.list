@@ -131,12 +131,8 @@
 - www-apps/php**
 - www-misc/***
 - www-plugins/***
-+ x11-drivers/xf86-input-evdev**
-+ x11-drivers/xf86-input-keyboard**
 + x11-drivers/xf86-input-libinput**
-+ x11-drivers/xf86-input-mouse**
-+ x11-drivers/xf86-input-synaptics**
-+ x11-drivers/xf86-video-intel**
++ x11-drivers/nvidia-drivers**
 + x11-drivers/xf86-video-nouveau**
 - x11-drivers/**
 - x11-plugins/***
