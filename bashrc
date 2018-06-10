@@ -40,7 +40,7 @@ LDFLAGS="-Wl,-O1 -Wl,--sort-common -Wl,--as-needed -Wl,--enable-new-dtags -Wl,--
 PAX_MARKINGS=XT
 
 # Tell to glibc to use features of at least this kernel
-NPTL_KERN_VER="4.6.0"
+NPTL_KERN_VER="4.9.0"
 
 # Tune my hooks
 PALUDIS_FILESYSTEM_HOOK_NO_WARNING=yes
