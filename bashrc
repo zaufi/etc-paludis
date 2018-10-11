@@ -28,7 +28,7 @@ AUTOMAKE_JOBS=8
 GRAPHITE="-floop-block -floop-interchange -ftree-loop-distribution -floop-strip-mine -fgraphite-identity -fivopts"
 MISC_FLAGS="-fipa-pta -fweb"
 SOME_O3_FLAGS="-ftree-vectorize"
-ARCH_FLAGS="-march=native -mtls-dialect=gnu2"
+ARCH_FLAGS="-march=native -mtune=native -mtls-dialect=gnu2"
 
 # Suppress useless^W warnings about unused local typedefs appeared for some packages
 CXXONLY_FLAGS="-fnothrow-opt -Wno-unused-local-typedefs"
